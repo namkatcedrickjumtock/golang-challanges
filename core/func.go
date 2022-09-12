@@ -16,7 +16,10 @@ func cycleGreetings(arrOfNames []string, f func(string)) {
 	}
 }
 func main() {
-	cycleGreetings([]string{"cedrick", "Junior", "prince", "Prosper"}, sayBy)
+	// cycleGreetings([]string{"cedrick", "Junior", "prince", "Prosper"}, sayBy)
+	var x int
+
+	fmt.Println(&x)
 }
 
 // returning multiple values from a function.
@@ -24,3 +27,13 @@ func main() {
 func personDetails(n string, Dob int) (string, int, string) {
 	return "Cedrick is", 40, "old"
 }
+
+
+// a function with zero or more parameters and a return value
+func add(numbers ...int) int {
+	result := 0
+	for _, number := range numbers {
+	result += number
+	}
+	return result
+	}

@@ -1,0 +1,6 @@
+Bill Break Down 
+beans:                    ....$3.88 
+tea:                      ....$3.88 
+pizza:                    ....$8.99 
+Tip:                      ...$60
+Total:                    ...$76.75
